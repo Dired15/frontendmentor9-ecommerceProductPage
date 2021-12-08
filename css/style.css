@@ -179,7 +179,11 @@ p
     justify-content: center;
     align-items: center;
     width:100%;
+<<<<<<< HEAD
     min-height:100%;
+=======
+    
+>>>>>>> 79876c5351ea294afc957ab03c5013e9c9eb00c3
     background-color:rgba(0, 0, 0, 0.8);
    
     z-index:100;

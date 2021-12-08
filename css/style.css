@@ -135,6 +135,11 @@ p
     height:20px;
 }
 
+#cartIcon:hover
+{
+    cursor:pointer;
+}
+
 #profilePic
 {
     background-image:url("../assets/images/image-avatar.png");
@@ -220,6 +225,16 @@ p
     border-color:rgba(0, 0, 0,0.5);
 }
 
+#galleryZoom .thumbnail:hover
+{
+    cursor:pointer;
+}
+
+#closeIcon:hover
+{
+    cursor:pointer;
+}
+
 
 .thumbnailContainer
 {
@@ -244,6 +259,13 @@ p
     
 
 }
+
+#imageDisplayed:hover
+{
+    cursor:pointer;
+}
+
+
 
 #containerImageDisplayedZoom
 {
@@ -271,6 +293,13 @@ p
     width:425px;
     height:425px;
 }
+
+#imageDisplayedZoom:hover
+{
+    cursor:pointer;
+}
+
+
 
 #topBand
 {
@@ -315,6 +344,11 @@ p
     align-items:center;
 }
 
+#sweepLeft:hover
+{
+    cursor:pointer;
+}
+
 #sweepRight
 {
     position:relative;
@@ -334,7 +368,10 @@ p
 }
 
 
-
+#sweepRight:hover
+{
+    cursor:pointer;
+}
 
 
 .image1
@@ -371,6 +408,11 @@ p
     display:flex;
     
     
+}
+
+.thumbnail:hover
+{
+    cursor:pointer;
 }
 
 
@@ -539,6 +581,13 @@ p
 
 }
 
+#quantity button:hover
+{
+    cursor:pointer;
+}
+
+
+
 #quantity div
 {
     background-color:hsl(223, 64%, 98%);
@@ -560,6 +609,11 @@ p
     background-color:hsl(26, 100%, 55%);
     width:60%;
     box-shadow:0px 20px  15px hsla(26, 100%, 55%,0.3);
+}
+
+#addToCart:hover
+{
+    cursor:pointer;
 }
 
 
@@ -648,6 +702,13 @@ p
     background-size:cover;
     
 }
+
+.cartRemoveIcon:hover
+{
+    cursor:pointer;
+}
+
+
 
 .itemName
 {

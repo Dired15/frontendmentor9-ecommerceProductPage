@@ -24,11 +24,11 @@ function Cart()
     this.addItem=function(item,quantity){
         var element=[item,quantity];
 
-        console.log(element);
+        
 
         this.items.push(element);
 
-        console.log(this.items);
+        
 
         this.cartUpdate(this.getLength()-1,true);
     }
@@ -307,7 +307,7 @@ function imageDisplay(element,imageDisplayed,thumbnail,imageSelected)
     gallery.setImageSelected(imageSelected);
 
     gallery.addSelected();
-    console.log(imageSelected);
+   
  
     imageDisplayed.className="image"+imageSelected;
 
@@ -434,11 +434,11 @@ function displayCart(action)
 
     }
 
-    positionCart(cartIcon.offsetLeft,cartIcon.offsetTop,cartElement);
+    positionCart(cartIcon.offsetLeft,cartIcon.offsetTop,cartIcon.offsetHeight,cartElement);
 
 }
 
-function positionCart(iconX,iconY,cartElement)
+function positionCart(iconX,iconY,iconHeight,cartElement)
 {
     var header=document.querySelector("header");
     
@@ -448,7 +448,7 @@ function positionCart(iconX,iconY,cartElement)
 
     
     cartElement.style.position="absolute";
-    cartElement.style.top=iconY+50+"px";
+    cartElement.style.top=iconY+iconHeight+3+"px";
     
     cartElement.style.left=(iconX-cartElement.offsetWidth)+size+"px";
     cartElement.style.zIndex="300";
